@@ -22,4 +22,21 @@ To calculate gate voltage for nmos(Vg),
 Vdsat = 0.4V = Vgs - Vth = Vg-0-0.5
 Implies that , Vg =0.9 V
 
-Performing DC analysis, without any without selecting any components, we calculated the values of UnCox and UpCox using the  https://latex.codecogs.com/svg.image?\beta&space;_{eff} values we got from the DC operating points.
+![Screenshot 2025-02-07 191235](https://github.com/user-attachments/assets/91fba7b9-c4a6-45c7-9262-09a9d24e0a37)
+
+Using theoretical calculations we got, 
+(w/l) pmos = 210.85
+(w/l) nmos = 185.45
+
+To get the w/l ratios for the pmos and nmos , we performed dc analysis of Id versus w, when we fixed the length = 500nm for nmos and 400 nm for pmos respectively.
+
+Pmos width = 111.362um
+Nmos width = 76.49um 
+
+For ac analysis, we used
+Frequency = 1kHz
+AC Magnitude = 1
+
+Results of AC analysis, Av =63.9
+
+![Screenshot 2025-02-07 191320](https://github.com/user-attachments/assets/cf21c923-d50e-4f70-835f-cda714f733e7)
